@@ -9,7 +9,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="myapi-projectFlow" doc:id="d74ddf65-8c1d-4c7b-b6f7-d4a7e78d56c4" >
 		<http:listener doc:name="Listener  GET /myapi" doc:id="2bad1536-727d-4094-8524-a4aa43903ee9" config-ref="HTTP_Listener_config" path="myapi"/>
-		<set-payload value="** Local payload - 1 **" doc:name="Set Payload" doc:id="1de04c7b-f7e1-4433-bb2d-b41fcc1603c0" />
-		<logger level="INFO" doc:name="Logger" doc:id="afcea730-f574-47a6-96dc-e9e708610c42" message="** Local payload - 1 **"/>
+		<set-payload value="** Local payload - 2 **" doc:name="Set Payload" doc:id="1de04c7b-f7e1-4433-bb2d-b41fcc1603c0" />
+		<logger level="INFO" doc:name="Logger" doc:id="afcea730-f574-47a6-96dc-e9e708610c42" message="** Local payload - 2 **"/>
 	</flow>
 </mule>
